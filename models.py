@@ -5,7 +5,7 @@ Created on May 22, 2014
 '''
 from util import loaddata, plot_roc, roc
 from pipeline import Pipeline
-from pyearth.earth import Earth
+from pyearth import Earth
 from sklearn.linear_model.logistic import LogisticRegression
 from sklearn.linear_model.stochastic_gradient import SGDClassifier
 from sklearn.ensemble.weight_boosting import AdaBoostClassifier
